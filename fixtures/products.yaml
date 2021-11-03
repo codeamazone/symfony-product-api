@@ -1,0 +1,7 @@
+App\Entity\Product:
+  product_{1..50}:
+    name: <word()>
+    gtin: 80%? <numerify('##############')>
+    description: <text()>
+    color: <safeColorName()>
+    price: <randomFloat(2, 0.1)>
