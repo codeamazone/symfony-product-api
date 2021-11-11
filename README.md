@@ -3,7 +3,7 @@ A simple REST API for managing products, built with Symfony 5 and API Platform
 
 ## Requires:
 
-- PHP 7.2.5 or higher
+- PHP 8 or higher
 - [Composer](https://getcomposer.org/)
 - a database, a web server 
 => For this project I used [xampp](https://www.apachefriends.org/de/index.html), which comes with Apache server and MariaDB
@@ -32,7 +32,7 @@ php bin/console doctrine:database:create
 php bin/console doctrine:schema:create
 ```
 
-- run the integrated symfony server:
+- run the inbuilt php server:
 ``` 
 php -S 127.0.0.1:8000 -t public
 ```
